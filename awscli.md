@@ -15,7 +15,7 @@ If you are on macOS, the easiest way to get awscli running is using [homebrew](h
 $ brew install awscli
 ```
 
-Or just use pip, but I strongly recommend that you run pip from a virtual env,_do not mess up your base system!_
+Or just use pip, but I strongly recommend that you run pip from a virtual env, _do not mess up your base system!_
 
 ```bash
 $ pip install awscli
@@ -164,6 +164,12 @@ $ aws ec2 describe-instances --instance-ids i-09c4a6ec87d807bf4 --query 'Reserva
 "54.183.22.255"
 # and finally connect to it
 $ ssh -i devenv-key.pem centos@54.183.22.255
+```
+
+Remember you will incur in costs. To not pay too much lets terminate our instance:
+
+```bash
+$ aws ec2 terminate-instances --instance-ids i-09c4a6ec87d807bf4
 ```
 
 
