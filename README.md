@@ -1,4 +1,4 @@
-# Artigos
+# Articles
 
 Just a bunch of day-to-day articles to help me to organize my thoughts.
 
