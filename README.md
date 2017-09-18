@@ -1,5 +1,5 @@
 # Articles
 
-Just a bunch of day-to-day articles to help me to organize my thoughts.
+Repositório de artigos que escrevo para estudar novas tecnologias.
 
 - Getting start with [AWSCLI](https://github.com/RodrigoJimmy/artigos/blob/master/awscli.md)
