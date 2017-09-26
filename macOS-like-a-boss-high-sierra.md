@@ -12,7 +12,7 @@ Para quem vem do Linux como eu, o Homebrew (ou somente brew) funciona como um ge
 Instala o brew:
 
 ```bash
-j/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Ref.: [https://brew.sh](https://brew.sh)
