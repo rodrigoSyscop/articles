@@ -43,28 +43,35 @@ brew cask install vlc
 A seguir eu instalo diversas ferramentas, aplicativos e fontes que eu costumo utilizar. Veja nos comentários o que é cada um e absorva o que for útil para você:
 
 ```bash
+# dev tools
+brew install git git-lfs
+```
+
+```bash
+
 # ativa o "repositório" de fontes
 brew tap caskroom/fonts
 
-brew install \
-    # dev tools
-    git git-lfs
+# fontes para terminal e editores de textos
+brew cask install font-fira-code font-source-code-pro 
 
-brew cask install \
-    # fontes para terminal e editores de textos \
-    font-fira-code font-source-code-pro \
-    # editor de texto
-    visual-studio-code \
-    # dev tools
-    github-desktop sequel-pro
-    # social, groupware, communication
-    slack skype telegram whatsapp \
-    # downloads, players
-    transmission vlc \
-    # browsers
-    firefox google-chrome \
-    # extras
-    kindle
+# editor de texto
+brew cask install visual-studio-code
+
+# dev tools
+brew cask install github-desktop sequel-pro
+
+# social, groupware, communication
+brew cask install slack skype telegram whatsapp
+
+# downloads, players
+brew cask install transmission vlc
+
+# browsers
+brew cask install firefox google-chrome
+
+# extras
+brew cask install kindle
 
 ```
 
