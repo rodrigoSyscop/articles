@@ -216,6 +216,51 @@ Agora vamos corrigir a bizarrice do pappermint. Com o terminal aberto e o tema d
 
 Terminando, certifique-se que o tema Peppermint está selecionado e clique no botão _Default_ para fazer dele o tema padrão.
 
+
+### Cores para o Terminal
+
+Insira o seguinte trecho no seu `~/.bash_profile`:
+
+```bash
+#-------------------------------------------------
+#  Colorful Terminal
+#-------------------------------------------------
+#
+# Tell ls to be colourful
+export CLICOLOR=1
+export LSCOLORS=Exfxcxdxbxegedabagacad
+
+# Tell grep to highlight matches
+export GREP_OPTIONS='--color=auto'
+
+
+### VIM melhorado
+
+Insira as seguintes configurações no seu `~/.vimrc`:
+
+```bash
+syntax enable
+set tabstop=4       " number of visual spaces per TAB
+set softtabstop=4   " number of spaces in tab when editing
+set expandtab       " tabs are spaces
+
+set autoindent
+set shiftwidth=4
+
+filetype indent on  " load filetype-specific indent files
+set wildmenu        " visual autocomplete for command menu
+set lazyredraw      " redraw only when we need to
+set showmatch       " highlight matching [{()}]
+
+set incsearch       " search as characters are entered
+set hlsearch        " highlight matches
+
+colorscheme peachpuff
+```
+
+export TERM="xterm-color"
+PS1='\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
+```
 ### VSCode
 
 ```json
