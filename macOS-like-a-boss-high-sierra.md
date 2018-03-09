@@ -25,7 +25,7 @@ Instala o brew cask:
 
  Ref.: [https://caskroom.github.io](https://caskroom.github.io)
 
-Com o `brew` e o `brew cask` instalado, fica fácil procurar e instalar novos aplicativos sem precisar recorrer ao browser:
+Com o `brew` e o `brew cask` instalados fica fácil procurar e instalar novos aplicativos sem precisar recorrer ao browser:
 
 ```bash
 # procura e instala o wget, uma ferramenta de linha de comando
@@ -71,7 +71,7 @@ brew cask install transmission vlc
 brew cask install firefox google-chrome
 
 # extras
-brew cask install kindle
+brew cask install kindle authy itsycal
 
 ```
 
