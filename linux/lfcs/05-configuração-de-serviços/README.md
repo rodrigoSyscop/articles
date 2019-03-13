@@ -1,6 +1,6 @@
 # 5 - Configuração de serviços - 20%
 
-##### [5.1. Configurar um servidor DNS em modo cache.](./05-configuração-de-serviços/01-configurar-um-servidor-dns-em-modo-cache.md)
+##### [5.1. Configurar um servidor DNS em modo cache.](./01-configurar-um-servidor-dns-em-modo-cache.md)
 
 ##### [5.2. Manutenção de uma zona DNS.]()
 
@@ -15,4 +15,3 @@
 ##### [5.7. Consultar e verificar o comportamento dos serviços do sistema em vários modos de operação.]()
 
 ##### [5.8. Configurar um servidor HTTP.]()
-
